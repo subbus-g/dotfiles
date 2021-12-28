@@ -1,0 +1,78 @@
+{
+    /**
+    * Better Defaults
+    **/
+    "diffEditor.ignoreTrimWhitespace": false, //preview file
+    "editor.multiCursorModifier": "ctrlCmd",//todo
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    // "editor.detectIndentation": false,//makes auto indentation disabled
+    "files.insertFinalNewline": true,//adds new line as the last line after saving
+    "files.trimFinalNewlines": true,
+
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    // "workbench.settings.openDefaultKeybindings": true,
+//   "workbench.settings.useSplitJSON": true,
+
+"code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.showRunCommandInEditorContextMenu": false,
+    "code-runner.showRunCommandInExplorerContextMenu": false,
+    "code-runner.preserveFocus": true,
+    "workbench.sideBar.location": "right",
+    // "workbench.statusBar.visible": false,
+//    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+
+    "editor.formatOnType": true,
+
+
+        /**
+    * Silence The Noise
+    */
+    // "editor.matchBrackets": "never",
+    // "workbench.tips.enabled": true,
+    "workbench.startupEditor": "none",
+    // "editor.lightbulb.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "all",
+    "problems.decorations.enabled": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+
+
+
+    /**
+    * Typography
+    **/
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontLigatures": true,
+    "redhat.telemetry.enabled": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "git.ignoreMissingGitWarning": true,
+    "telemetry.telemetryLevel": "off",
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/*.exe": true
+    },
+    "search.exclude": {
+        "**/*.exe": true
+    },
+    "workbench.editor.enablePreview": false,
+
+    // "editor.suggestFontSize": 15,
+    // "editor.suggestLineHeight": 28,
+    // "terminal.integrated.fontSize": 15,
+    // "terminal.integrated.lineHeight": 1.5,
+
+    "explorer.autoReveal": true
+
+}
