@@ -5,15 +5,13 @@
     "diffEditor.ignoreTrimWhitespace": false, //preview file
     "editor.multiCursorModifier": "ctrlCmd",//todo
     "files.trimTrailingWhitespace": true,
-    "diffEditor.renderSideBySide": false,
     "editor.snippetSuggestions": "top",
     // "editor.detectIndentation": false,//makes auto indentation disabled
     "files.insertFinalNewline": true,//adds new line as the last line after saving
     "files.trimFinalNewlines": true,
 
-    "workbench.settings.editor": "json",
-    "workbench.settings.openDefaultSettings": true,
     // "workbench.settings.openDefaultKeybindings": true,
+
 //   "workbench.settings.useSplitJSON": true,
 
 "code-runner.runInTerminal": true,
@@ -73,6 +71,14 @@
     // "terminal.integrated.fontSize": 15,
     // "terminal.integrated.lineHeight": 1.5,
 
-    "explorer.autoReveal": true
+
+    "explorer.autoReveal": true,
+    "window.menuBarVisibility": "toggle",
+"workbench.editor.closeEmptyGroups": false,
+"code-runner.enableAppInsights": false,
+
+"editor.bracketPairColorization.enabled": true
+
+
 
 }

@@ -1,7 +1,7 @@
 d
 // Place your key bindings in this file to override the defaults
 [
-     /**
+    /**
     * Panels
     */
     {
@@ -28,9 +28,7 @@ d
         "key": "ctrl+t",
         "command": "workbench.action.terminal.toggleTerminal"
     },
-
-
-        /**
+    /**
     * File Explorer
     **/
     // {
@@ -48,10 +46,12 @@ d
         "command": "explorer.newFolder",
         "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     },
-
-    {   "key": "ctrl+k k",
-        "command": "workbench.action.toggleZenMode" },
-
-
-
+    {
+        "key": "ctrl+k k",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+oem_period",
+        "command": "workbench.action.openSettingsJson",
+    }
 ]
