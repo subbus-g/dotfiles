@@ -3,18 +3,16 @@
     * Better Defaults
     **/
     "diffEditor.ignoreTrimWhitespace": false, //preview file
-    "editor.multiCursorModifier": "ctrlCmd",//todo
+    "editor.multiCursorModifier": "ctrlCmd", //todo
     "files.trimTrailingWhitespace": true,
     "editor.snippetSuggestions": "top",
     // "editor.detectIndentation": false,//makes auto indentation disabled
-    "files.insertFinalNewline": true,//adds new line as the last line after saving
+    "files.insertFinalNewline": true, //adds new line as the last line after saving
     "files.trimFinalNewlines": true,
-
+    // "workbench.settings.editor": "json",
     // "workbench.settings.openDefaultKeybindings": true,
-
-//   "workbench.settings.useSplitJSON": true,
-
-"code-runner.runInTerminal": true,
+    //   "workbench.settings.useSplitJSON": true,
+    "code-runner.runInTerminal": true,
     "code-runner.clearPreviousOutput": true,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.showExecutionMessage": false,
@@ -23,14 +21,11 @@
     "code-runner.preserveFocus": true,
     "workbench.sideBar.location": "right",
     // "workbench.statusBar.visible": false,
-//    "workbench.editor.showTabs": false,
+    //    "workbench.editor.showTabs": false,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
-
     "editor.formatOnType": true,
-
-
-        /**
+    /**
     * Silence The Noise
     */
     // "editor.matchBrackets": "never",
@@ -41,10 +36,6 @@
     "editor.renderLineHighlight": "all",
     "problems.decorations.enabled": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-
-
-
-
     /**
     * Typography
     **/
@@ -53,32 +44,84 @@
     "editor.fontSize": 18,
     "editor.fontFamily": "Cascadia Code",
     "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
     "redhat.telemetry.enabled": false,
     "workbench.editor.untitled.hint": "hidden",
     "git.ignoreMissingGitWarning": true,
     "telemetry.telemetryLevel": "off",
-    "files.autoSave": "afterDelay",
     "files.exclude": {
         "**/*.exe": true
     },
     "search.exclude": {
         "**/*.exe": true
     },
-    "workbench.editor.enablePreview": false,
-
     // "editor.suggestFontSize": 15,
     // "editor.suggestLineHeight": 28,
     // "terminal.integrated.fontSize": 15,
     // "terminal.integrated.lineHeight": 1.5,
-
-
     "explorer.autoReveal": true,
     "window.menuBarVisibility": "toggle",
-"workbench.editor.closeEmptyGroups": false,
-"code-runner.enableAppInsights": false,
-
-"editor.bracketPairColorization.enabled": true
-
-
-
+    "workbench.editor.closeEmptyGroups": false,
+    "code-runner.enableAppInsights": false,
+    "editor.bracketPairColorization.enabled": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        //  updated cpp
+        "cpp": "cd $dir && g++ \"$fileName\" -o \"$fileNameWithoutExt.exe\" && & \"$dir$fileNameWithoutExt.exe\"",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.renderSideBySide": false,
+    "leetcode.workspaceFolder": "d:\\git-repos\\leetcode",
+    "leetcode.defaultLanguage": "cpp"
 }
