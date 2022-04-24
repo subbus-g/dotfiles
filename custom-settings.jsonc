@@ -121,7 +121,7 @@
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
     "editor.unicodeHighlight.invisibleCharacters": false,
-    "diffEditor.renderSideBySide": false,
     "leetcode.workspaceFolder": "d:\\git-repos\\leetcode",
-    "leetcode.defaultLanguage": "cpp"
+    "leetcode.defaultLanguage": "cpp",
+    "leetcode.showDescription": "In Webview"
 }
