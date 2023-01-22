@@ -30,11 +30,11 @@
     /**
     * File Explorer
     **/
-    // {
-    //     "key": "ctrl+d",
-    //     "command": "duplicate.execute",
-    //     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-    // },
+    {
+        "key": "ctrl+d",
+        "command": "duplicate.execute",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
     {
         "key": "ctrl+n",
         "command": "explorer.newFile",
@@ -52,5 +52,270 @@
     {
         "key": "ctrl+oem_period",
         "command": "workbench.action.openSettingsJson",
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "alt+2",
+        "command": "-workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "alt+3",
+        "command": "-workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "alt+4",
+        "command": "-workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "alt+5",
+        "command": "-workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "alt+6",
+        "command": "-workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "ctrl+7",
+        "command": "workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "alt+7",
+        "command": "-workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "alt+8",
+        "command": "-workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "alt+9",
+        "command": "-workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "alt+8",
+        "command": "workbench.action.focusEighthEditorGroup"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "-workbench.action.focusEighthEditorGroup"
+    },
+    {
+        "key": "alt+5",
+        "command": "workbench.action.focusFifthEditorGroup"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "-workbench.action.focusFifthEditorGroup"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "-workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "alt+7",
+        "command": "workbench.action.focusSeventhEditorGroup"
+    },
+    {
+        "key": "ctrl+7",
+        "command": "-workbench.action.focusSeventhEditorGroup"
+    },
+    {
+        "key": "alt+6",
+        "command": "workbench.action.focusSixthEditorGroup"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "-workbench.action.focusSixthEditorGroup"
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    // {
+    //     "key": "ctrl+alt+up",
+    //     "command": "workbench.action.moveEditorToAboveGroup"
+    // },
+    // {
+    //     "key": "ctrl+alt+down",
+    //     "command": "workbench.action.moveEditorToBelowGroup"
+    // },
+    // {
+    //     "key": "ctrl+alt+left",
+    //     "command": "workbench.action.moveEditorToLeftGroup"
+    // },
+    // {
+    //     "key": "ctrl+alt+right",
+    //     "command": "workbench.action.moveEditorToRightGroup"
+    // },
+    //word is a word whether it is seperated by space or dash or hyphen. so unify them with ctrl, no need for alt
+    //https://stackoverflow.com/questions/52509531/visual-studio-code-navigate-by-sub-word-white-space
+    //word navigation
+    {
+        "key": "ctrl+left",
+        "command": "cursorWordPartLeft"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "cursorWordPartRight",
+        "when": "textInputFocus"
+    },
+    // word selection adding shift
+    {
+        "key": "ctrl+shift+left",
+        "command": "cursorWordPartLeftSelect"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "cursorWordPartRightSelect",
+        "when": "textInputFocus"
+    },
+    //word deletion using ctrl + del and ctrl + back space to work with camelCase too
+    {
+        "key": "ctrl+delete",
+        "command": "deleteWordPartRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "deleteWordPartLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "i",
+        "command": "list.focusUp",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "k",
+        "command": "-list.focusUp",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusDown",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "j",
+        "command": "-list.focusDown",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "-notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-notebook.cell.executeAndFocusContainer",
+        "when": "notebookCellListFocused || editorTextFocus && inputFocus && notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-notebook.cell.insertCodeCellBelow",
+        "when": "notebookCellListFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j a",
+        "command": "jupyter.insertCellAbove",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+oem_1 a",
+        "command": "-jupyter.insertCellAbove",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+j b",
+        "command": "jupyter.insertCellBelow",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+oem_1 b",
+        "command": "-jupyter.insertCellBelow",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     }
 ]
